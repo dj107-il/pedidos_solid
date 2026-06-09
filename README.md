@@ -223,3 +223,9 @@ Los identificadores reales cambian en cada ejecucion porque se generan con `UUID
 - GoF Dependency Injection: `ProcesarPedidoService` recibe sus dependencias por constructor.
 - EIP Message Channel: `NotificadorPedido` puede entenderse como un canal abstracto para enviar mensajes de confirmacion.
 - EIP Message Translator: una futura implementacion podria transformar `Pedido` en un DTO para correo, SMS o cola de mensajes.
+
+## Evidencia de funcionamiento
+
+La aplicación fue ejecutada correctamente procesando pedidos para clientes Regular, VIP y Premium.
+
+![alt text](image.png)
